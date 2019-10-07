@@ -13,6 +13,7 @@
 		FA691E8E2347596200EEFE5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA691E8C2347596200EEFE5A /* Main.storyboard */; };
 		FA691E902347596600EEFE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA691E8F2347596600EEFE5A /* Assets.xcassets */; };
 		FA691E932347596600EEFE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA691E912347596600EEFE5A /* LaunchScreen.storyboard */; };
+		FA691E9B2347599000EEFE5A /* BakeryClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA691E9A2347599000EEFE5A /* BakeryClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA691E8F2347596600EEFE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA691E922347596600EEFE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA691E942347596600EEFE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA691E9A2347599000EEFE5A /* BakeryClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BakeryClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FA691E852347596200EEFE5A /* Bakery */ = {
 			isa = PBXGroup;
 			children = (
+				FA691E9A2347599000EEFE5A /* BakeryClassifier.mlmodel */,
 				FA691E862347596200EEFE5A /* AppDelegate.swift */,
 				FA691E882347596200EEFE5A /* SceneDelegate.swift */,
 				FA691E8A2347596200EEFE5A /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				FA691E8B2347596200EEFE5A /* ViewController.swift in Sources */,
 				FA691E872347596200EEFE5A /* AppDelegate.swift in Sources */,
 				FA691E892347596200EEFE5A /* SceneDelegate.swift in Sources */,
+				FA691E9B2347599000EEFE5A /* BakeryClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D2C4B7TSA;
 				INFOPLIST_FILE = Bakery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D2C4B7TSA;
 				INFOPLIST_FILE = Bakery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
